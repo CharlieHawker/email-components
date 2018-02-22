@@ -1,18 +1,18 @@
 {
   "name": "email-components",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "juice": "^4.2.0",
-    "node-sass": "^4.5.3",
-    "pug": "^2.0.0-rc.4",
-    "pug-cli": "^1.0.0-alpha6"
+  "description": "UK Parliament Email Components",
+  "author": "UK Parliament",
+  "repository": "ukparliament/email-components",
+  "license": "MIT",
+  "engines": {
+    "node": "8.x"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "make install && make build"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "juice": "^4.2.2",
+    "parliamentuk-pugin": "ukparliament/parliament.uk-pugin"
+  }
 }
