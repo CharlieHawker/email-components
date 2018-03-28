@@ -1,16 +1,21 @@
-// Actual footer
+/*--- Actual Footer ---*/
 #templateFooter {
   background: $grey-4;
   border-top: 1px solid $grey-3;
   a {
     display: inline-block;
     vertical-align: middle;
+    font-size: 12px;
+    line-height: 16px;
+    color: $grey-1;
     img {
-      display: block;
+      display: inline-block;
+      padding-right: 10px;
     }
     .socialIcon {
+      vertical-align: middle;
+      padding-left: 18px;
       max-width: 16px;
-      margin-left: 18px;
     }
   }
   td {
@@ -21,7 +26,13 @@
   }
 }
 
-// Legal/unsubscribe section
+@media only screen and (max-width: 599px) {
+  #templateFooter a  {
+    font-size: 0 !important;
+  }
+}
+
+/*--- Legal/Unsubscribe Section ---*/
 #templateLegal {
   font-size: 12px;
   line-height: 20px;

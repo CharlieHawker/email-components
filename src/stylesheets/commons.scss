@@ -1,0 +1,8 @@
+/*--- Import Blank Stylesheet ---*/
+@import 'blank';
+
+.divider {
+	hr {
+		border-color: $commons;
+	}
+}

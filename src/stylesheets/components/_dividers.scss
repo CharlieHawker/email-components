@@ -6,16 +6,8 @@
 		border-top-style: solid;
 		margin: 0;
 	}
-}
 
-.divider.hoc {
-	hr {
-		border-color: $commons;
-	}
-}
-
-.divider.hol {
-	hr {
-		border-color: $lords;
+	h2, h3 {
+		padding: 0;
 	}
 }

@@ -1,0 +1,53 @@
+@import 'clients';
+@import 'reset';
+
+/*--- Import settings from parliament.uk-pugin ---*/
+@import 'settings/colours';
+
+/*--- Body Settings ---*/
+body {
+	background: $grey-5;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  color: $grey-1;
+}
+
+/*--- Links ---*/
+a {
+	color: $link;
+	&:hover {
+		color: $link-hover;
+	}
+}
+
+/*--- Titles ---*/
+h2, h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+ul { list-style-position: inside; }
+
+#templateContent {
+  background: $white;
+	padding-bottom: 20px;
+}
+
+#bodyTable {
+  max-width: 560px;
+}
+
+.row {
+	padding-top: 20px;
+}
+
+/*--- Import Components ---*/
+@import 'components/masthead';
+@import 'components/dividers';
+@import 'components/section-title';
+@import 'components/table-of-contents';
+@import 'components/columns';
+@import 'components/footer';

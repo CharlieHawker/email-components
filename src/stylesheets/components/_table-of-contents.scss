@@ -1,0 +1,15 @@
+.table-of-contents {
+	h3 {
+		font-size: 21px;
+	}
+	li {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	@media only screen and (max-width: 599px) {
+		ul {
+			padding-top: 20px !important;
+		}
+	}
+}
