@@ -2,6 +2,9 @@ extends ../layouts/master.pug
 
 append head
   link(href='stylesheets/blank.css' rel='stylesheet')
+    
+block header
+  img(src='images/header.png' width='600px' mc:edit='header_image')
 
 block content
   include ../components/table-of-contents.pug

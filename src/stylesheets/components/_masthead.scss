@@ -9,14 +9,18 @@
   }
 }
 
-#templateMasthead {
-  background: $grey-1;
-  color: $white;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
+.header__image {
+  max-width: 600px;
+}
 
-  td {
-    padding: 18px 0;
+.header__title {
+  background-color: $white;
+  padding: 0 20px;
+  h2 {
+    font-weight: normal;
+    font-size: 36px;
+    padding: 20px 0;
+    color: $grey-1;
+    border-bottom: 1px solid $grey-2;
   }
 }
