@@ -5,7 +5,13 @@
     color: $grey-2;
   }
   td {
-    padding: 6px 0;
+    padding: $base-spacing-unit 0;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #templatePreheader td {
+    padding: $base-spacing-unit !important;
   }
 }
 
