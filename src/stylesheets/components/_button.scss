@@ -1,0 +1,16 @@
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: $button--primary;
+
+  td {
+    text-align: center;
+    padding: $base-spacing-unit $base-spacing-unit-tiny;
+  }
+
+  a, a:hover, a:focus {
+    color: $white;
+    text-decoration: none;
+    line-height: 1.5;
+  }
+}

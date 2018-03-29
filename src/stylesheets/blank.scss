@@ -1,6 +1,10 @@
 @import 'clients';
 @import 'reset';
 
+/*--- Ideally from pugin but don't want extra CSS ---*/
+$base-spacing-unit: 6px;
+$base-spacing-unit-tiny: round($base-spacing-unit * 2); // 12px
+
 /*--- Import settings from parliament.uk-pugin ---*/
 @import 'settings/colours';
 
@@ -50,4 +54,5 @@ ul { list-style-position: outside; padding: 0 0 0 1em; }
 @import 'components/section-title';
 @import 'components/table-of-contents';
 @import 'components/columns';
+@import 'components/button';
 @import 'components/footer';
