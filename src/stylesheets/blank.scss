@@ -28,9 +28,10 @@ a {
 }
 
 /*--- Titles ---*/
-h2, h3 {
+h1, h2, h3 {
   font-size: 21px;
   font-weight: bold;
+	line-height: 28px;
 }
 
 ul { list-style-position: outside; padding: 0 0 0 1em; }
