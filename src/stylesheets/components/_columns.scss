@@ -13,6 +13,11 @@
     }
   }
 
+  &__third p,
+  &__fourth p {
+  	padding-top: 10px;
+  }
+
   &__full img {
     max-width: 560px;
     padding-bottom: 20px;
@@ -59,15 +64,19 @@
     }
 
     &__half img,
-    &__third img,
-    &__twothirds img,
-    &__fourth img {
+    &__twothirds img {
       padding-bottom: 20px !important;
     }
 
-    &__third p,
-    &__fourth p {
-      padding-bottom: 20px !important;
+    &__third,
+    &__fourth {
+      img {
+        padding-bottom: 10px !important;
+      }
+
+      p {
+        padding-bottom: 20px !important;
+      }
     }
   }
 }
