@@ -2,16 +2,17 @@ extends ../layouts/master.pug
 
 append head
   link(href='stylesheets/blank.css' rel='stylesheet')
+    
+block header
+  img(class='header__image' src='images/header.png' width='600px' mc:edit='header_image')
 
 block content
   include ../components/table-of-contents.pug
-  include ../components/divider.pug
+  include ../components/section-title.pug  
   include ../components/content-with-image-full-width.pug
-  include ../components/divider.pug
   include ../components/content-with-image-half-width.pug
-  include ../components/divider.pug
   include ../components/content-with-image-third-width.pug
-  include ../components/section-title.pug
-  include ../components/third-images.pug
+  include ../components/button.pug
   include ../components/divider.pug
+  include ../components/third-images.pug
   include ../components/fourth-images.pug

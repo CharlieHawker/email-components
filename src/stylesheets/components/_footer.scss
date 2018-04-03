@@ -26,12 +26,6 @@
   }
 }
 
-@media only screen and (max-width: 599px) {
-  #templateFooter a  {
-    font-size: 0 !important;
-  }
-}
-
 /*--- Legal/Unsubscribe Section ---*/
 #templateLegal {
   font-size: 12px;
@@ -42,5 +36,16 @@
   }
   a {
     color: $grey-2;
+  }
+}
+
+
+@media only screen and (max-width: 599px) {
+  #templateFooter a  {
+    font-size: 0 !important;
+  }
+
+  #templateLegal td {
+    padding: 18px $base-spacing-unit !important;
   }
 }
