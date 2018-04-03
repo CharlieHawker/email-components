@@ -9,12 +9,6 @@
   }
 }
 
-@media only screen and (max-width: 599px) {
-  #templatePreheader td {
-    padding: $base-spacing-unit !important;
-  }
-}
-
 .header__image {
   max-width: 600px;
 }
@@ -28,5 +22,15 @@
     padding: 20px 0;
     color: $grey-1;
     border-bottom: 1px solid $grey-2;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #templatePreheader td {
+    padding: $base-spacing-unit !important;
+  }
+
+  .header__image {
+    max-width: 100% !important;
   }
 }

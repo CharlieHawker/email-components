@@ -8,9 +8,8 @@
     padding: $base-spacing-unit $base-spacing-unit-tiny;
   }
 
-  a, a:hover, a:focus {
-    color: $white;
+  a, a:visited, a:hover, a:focus {
+    color: $white !important;
     text-decoration: none;
-    line-height: 1.5;
   }
 }
